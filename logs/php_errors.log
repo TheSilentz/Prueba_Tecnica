@@ -1,0 +1,121 @@
+[29-Jun-2025 20:17:04 Europe/Berlin] PHP Warning:  Undefined variable $ta in C:\xampp\htdocs\Entrevistas\modelos\entrevistas.modelo.php on line 17
+[29-Jun-2025 20:17:04 Europe/Berlin] Error en mdlMostrarEntrevistas: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[29-Jun-2025 20:31:07 Europe/Berlin] PHP Warning:  Undefined variable $ta in C:\xampp\htdocs\Entrevistas\modelos\entrevistas.modelo.php on line 17
+[29-Jun-2025 20:31:07 Europe/Berlin] Error en mdlMostrarEntrevistas: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[29-Jun-2025 20:31:32 Europe/Berlin] PHP Warning:  Undefined variable $ta in C:\xampp\htdocs\Entrevistas\modelos\entrevistas.modelo.php on line 17
+[29-Jun-2025 20:31:32 Europe/Berlin] Error en mdlMostrarEntrevistas: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[29-Jun-2025 20:41:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot access "self" when no class scope is active in C:\xampp\htdocs\Entrevistas\modelos\entrevistas.modelo.php:241
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Entrevistas\modelos\entrevistas.modelo.php on line 241
+[29-Jun-2025 20:41:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot access "self" when no class scope is active in C:\xampp\htdocs\Entrevistas\modelos\entrevistas.modelo.php:220
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Entrevistas\modelos\entrevistas.modelo.php on line 220
+[29-Jun-2025 20:43:20 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot access "self" when no class scope is active in C:\xampp\htdocs\Entrevistas\modelos\entrevistas.modelo.php:241
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Entrevistas\modelos\entrevistas.modelo.php on line 241
+[01-Jul-2025 00:52:26 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "ControladorEntrevistas" not found in C:\xampp\htdocs\Entrevistas\ajax\candidatos.ajax.php:14
+Stack trace:
+#0 C:\xampp\htdocs\Entrevistas\ajax\candidatos.ajax.php(48): TablaCandidatos->mostrarTablaCandidatos()
+#1 {main}
+  thrown in C:\xampp\htdocs\Entrevistas\ajax\candidatos.ajax.php on line 14
+[01-Jul-2025 00:58:33 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "ModeloEntrevistas" not found in C:\xampp\htdocs\Entrevistas\controladores\candidatos.controlador.php:14
+Stack trace:
+#0 C:\xampp\htdocs\Entrevistas\ajax\candidatos.ajax.php(14): ControladorCandidatos::ctrMostrarEntrevistas()
+#1 C:\xampp\htdocs\Entrevistas\ajax\candidatos.ajax.php(48): TablaCandidatos->mostrarTablaCandidatos()
+#2 {main}
+  thrown in C:\xampp\htdocs\Entrevistas\controladores\candidatos.controlador.php on line 14
+[01-Jul-2025 00:58:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "ModeloEntrevistas" not found in C:\xampp\htdocs\Entrevistas\controladores\candidatos.controlador.php:14
+Stack trace:
+#0 C:\xampp\htdocs\Entrevistas\ajax\candidatos.ajax.php(14): ControladorCandidatos::ctrMostrarEntrevistas()
+#1 C:\xampp\htdocs\Entrevistas\ajax\candidatos.ajax.php(48): TablaCandidatos->mostrarTablaCandidatos()
+#2 {main}
+  thrown in C:\xampp\htdocs\Entrevistas\controladores\candidatos.controlador.php on line 14
+[01-Jul-2025 00:59:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method ControladorCandidatos::ctrMostrarEntrevistas() in C:\xampp\htdocs\Entrevistas\ajax\candidatos.ajax.php:14
+Stack trace:
+#0 C:\xampp\htdocs\Entrevistas\ajax\candidatos.ajax.php(48): TablaCandidatos->mostrarTablaCandidatos()
+#1 {main}
+  thrown in C:\xampp\htdocs\Entrevistas\ajax\candidatos.ajax.php on line 14
+[01-Jul-2025 00:59:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method ModeloCandidatos::mdlMostrarCandidato() in C:\xampp\htdocs\Entrevistas\modelos\candidatos.modelo.php:232
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Entrevistas\modelos\candidatos.modelo.php on line 232
+[01-Jul-2025 04:34:46 Europe/Berlin] Error en mdlMostrarEntrevistas: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'db_reclutamiento.entrevistas' doesn't exist
+[01-Jul-2025 04:37:52 Europe/Berlin] Error en mdlMostrarEntrevistas: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'db_reclutamiento.entrevistas' doesn't exist
+[01-Jul-2025 04:39:39 Europe/Berlin] Error en mdlMostrarEntrevistas: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'db_reclutamiento.entrevistas' doesn't exist
+[01-Jul-2025 04:39:43 Europe/Berlin] Error en mdlMostrarEntrevistas: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'db_reclutamiento.entrevistas' doesn't exist
+[01-Jul-2025 04:39:44 Europe/Berlin] Error en mdlMostrarEntrevistas: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'db_reclutamiento.entrevistas' doesn't exist
+[01-Jul-2025 04:41:30 Europe/Berlin] Error en mdlMostrarEntrevistas: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'db_reclutamiento.entrevistas' doesn't exist
+[01-Jul-2025 04:41:43 Europe/Berlin] Error en mdlMostrarEntrevistas: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'db_reclutamiento.entrevistas' doesn't exist
+[01-Jul-2025 04:42:00 Europe/Berlin] Error en mdlMostrarEntrevistas: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'db_reclutamiento.entrevistas' doesn't exist
+[01-Jul-2025 04:43:11 Europe/Berlin] Error en mdlMostrarEntrevistas: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'db_reclutamiento.entrevistas' doesn't exist
+[01-Jul-2025 04:45:45 Europe/Berlin] Error en mdlMostrarEntrevistas: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'db_reclutamiento.entrevistas' doesn't exist
+[01-Jul-2025 04:46:26 Europe/Berlin] Error en mdlMostrarEntrevistas: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'db_reclutamiento.entrevistas' doesn't exist
+[01-Jul-2025 17:24:08 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method TablaVacantes::mostrarTablaVacantes() in C:\xampp\htdocs\Entrevistas\ajax\vacantes.ajax.php:44
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Entrevistas\ajax\vacantes.ajax.php on line 44
+[01-Jul-2025 17:24:38 Europe/Berlin] PHP Warning:  Undefined array key "vacante" in C:\xampp\htdocs\Entrevistas\ajax\vacantes.ajax.php on line 27
+[01-Jul-2025 17:24:38 Europe/Berlin] PHP Warning:  Undefined array key "fecha_entrevista" in C:\xampp\htdocs\Entrevistas\ajax\vacantes.ajax.php on line 28
+[01-Jul-2025 17:24:38 Europe/Berlin] PHP Warning:  Undefined array key "notas" in C:\xampp\htdocs\Entrevistas\ajax\vacantes.ajax.php on line 29
+[01-Jul-2025 17:24:38 Europe/Berlin] PHP Warning:  Undefined array key "reclutado" in C:\xampp\htdocs\Entrevistas\ajax\vacantes.ajax.php on line 30
+[01-Jul-2025 17:24:38 Europe/Berlin] PHP Warning:  Undefined array key "vacante" in C:\xampp\htdocs\Entrevistas\ajax\vacantes.ajax.php on line 27
+[01-Jul-2025 17:24:38 Europe/Berlin] PHP Warning:  Undefined array key "fecha_entrevista" in C:\xampp\htdocs\Entrevistas\ajax\vacantes.ajax.php on line 28
+[01-Jul-2025 17:24:38 Europe/Berlin] PHP Warning:  Undefined array key "notas" in C:\xampp\htdocs\Entrevistas\ajax\vacantes.ajax.php on line 29
+[01-Jul-2025 17:24:38 Europe/Berlin] PHP Warning:  Undefined array key "reclutado" in C:\xampp\htdocs\Entrevistas\ajax\vacantes.ajax.php on line 30
+[01-Jul-2025 17:24:38 Europe/Berlin] PHP Warning:  Undefined array key "vacante" in C:\xampp\htdocs\Entrevistas\ajax\vacantes.ajax.php on line 27
+[01-Jul-2025 17:24:38 Europe/Berlin] PHP Warning:  Undefined array key "fecha_entrevista" in C:\xampp\htdocs\Entrevistas\ajax\vacantes.ajax.php on line 28
+[01-Jul-2025 17:24:38 Europe/Berlin] PHP Warning:  Undefined array key "notas" in C:\xampp\htdocs\Entrevistas\ajax\vacantes.ajax.php on line 29
+[01-Jul-2025 17:24:38 Europe/Berlin] PHP Warning:  Undefined array key "reclutado" in C:\xampp\htdocs\Entrevistas\ajax\vacantes.ajax.php on line 30
+[01-Jul-2025 17:24:38 Europe/Berlin] PHP Warning:  Undefined array key "vacante" in C:\xampp\htdocs\Entrevistas\ajax\vacantes.ajax.php on line 27
+[01-Jul-2025 17:24:38 Europe/Berlin] PHP Warning:  Undefined array key "fecha_entrevista" in C:\xampp\htdocs\Entrevistas\ajax\vacantes.ajax.php on line 28
+[01-Jul-2025 17:24:38 Europe/Berlin] PHP Warning:  Undefined array key "notas" in C:\xampp\htdocs\Entrevistas\ajax\vacantes.ajax.php on line 29
+[01-Jul-2025 17:24:38 Europe/Berlin] PHP Warning:  Undefined array key "reclutado" in C:\xampp\htdocs\Entrevistas\ajax\vacantes.ajax.php on line 30
+[01-Jul-2025 17:29:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method ModeloVacantes::mdlMostrarVacantes() in C:\xampp\htdocs\Entrevistas\controladores\vacantes.controlador.php:11
+Stack trace:
+#0 C:\xampp\htdocs\Entrevistas\ajax\vacantes.ajax.php(11): ControladorVacantes::ctrMostrarVacantes()
+#1 C:\xampp\htdocs\Entrevistas\ajax\vacantes.ajax.php(43): TablaVacantes->mostrarTablaVacantes()
+#2 {main}
+  thrown in C:\xampp\htdocs\Entrevistas\controladores\vacantes.controlador.php on line 11
+[01-Jul-2025 17:36:16 Europe/Berlin] PHP Warning:  Undefined variable $value in C:\xampp\htdocs\Entrevistas\ajax\vacantes.ajax.php on line 23
+[01-Jul-2025 17:36:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Entrevistas\ajax\vacantes.ajax.php on line 23
+[01-Jul-2025 17:36:16 Europe/Berlin] PHP Warning:  Undefined variable $value in C:\xampp\htdocs\Entrevistas\ajax\vacantes.ajax.php on line 23
+[01-Jul-2025 17:36:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Entrevistas\ajax\vacantes.ajax.php on line 23
+[01-Jul-2025 17:36:16 Europe/Berlin] PHP Warning:  Undefined variable $value in C:\xampp\htdocs\Entrevistas\ajax\vacantes.ajax.php on line 23
+[01-Jul-2025 17:36:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Entrevistas\ajax\vacantes.ajax.php on line 23
+[01-Jul-2025 17:36:16 Europe/Berlin] PHP Warning:  Undefined variable $value in C:\xampp\htdocs\Entrevistas\ajax\vacantes.ajax.php on line 23
+[01-Jul-2025 17:36:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Entrevistas\ajax\vacantes.ajax.php on line 23
+[01-Jul-2025 17:43:26 Europe/Berlin] PHP Warning:  Undefined array key 4 in C:\xampp\htdocs\Entrevistas\ajax\vacantes.ajax.php on line 28
+[01-Jul-2025 17:43:26 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Entrevistas\ajax\vacantes.ajax.php on line 28
+[01-Jul-2025 17:43:26 Europe/Berlin] PHP Warning:  Undefined array key 4 in C:\xampp\htdocs\Entrevistas\ajax\vacantes.ajax.php on line 29
+[01-Jul-2025 17:43:26 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Entrevistas\ajax\vacantes.ajax.php on line 29
+[01-Jul-2025 18:47:30 Europe/Berlin] PHP Warning:  Undefined variable $id in C:\xampp\htdocs\Entrevistas\modelos\entrevistas.modelo.php on line 13
+[01-Jul-2025 18:47:30 Europe/Berlin] Error en mdlMostrarEntrevistas: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[01-Jul-2025 18:52:54 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ModeloEntrevistas::mdlMostrarEntrevistas(), 1 passed in C:\xampp\htdocs\Entrevistas\controladores\entrevistas.controlador.php on line 11 and exactly 2 expected in C:\xampp\htdocs\Entrevistas\modelos\entrevistas.modelo.php:10
+Stack trace:
+#0 C:\xampp\htdocs\Entrevistas\controladores\entrevistas.controlador.php(11): ModeloEntrevistas::mdlMostrarEntrevistas('entrevista')
+#1 C:\xampp\htdocs\Entrevistas\ajax\entrevistas.ajax.php(11): ControladorEntrevistas::ctrMostrarEntrevistas()
+#2 C:\xampp\htdocs\Entrevistas\ajax\entrevistas.ajax.php(44): TablaEntrevistas->mostrarTablaEntrevistas()
+#3 {main}
+  thrown in C:\xampp\htdocs\Entrevistas\modelos\entrevistas.modelo.php on line 10
+[01-Jul-2025 18:53:43 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ModeloEntrevistas::mdlMostrarEntrevistas(), 1 passed in C:\xampp\htdocs\Entrevistas\controladores\entrevistas.controlador.php on line 11 and exactly 2 expected in C:\xampp\htdocs\Entrevistas\modelos\entrevistas.modelo.php:10
+Stack trace:
+#0 C:\xampp\htdocs\Entrevistas\controladores\entrevistas.controlador.php(11): ModeloEntrevistas::mdlMostrarEntrevistas('entrevista')
+#1 C:\xampp\htdocs\Entrevistas\ajax\entrevistas.ajax.php(11): ControladorEntrevistas::ctrMostrarEntrevistas()
+#2 C:\xampp\htdocs\Entrevistas\ajax\entrevistas.ajax.php(44): TablaEntrevistas->mostrarTablaEntrevistas()
+#3 {main}
+  thrown in C:\xampp\htdocs\Entrevistas\modelos\entrevistas.modelo.php on line 10
+[01-Jul-2025 19:18:32 Europe/Berlin] Error de conexión a la base de datos: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[01-Jul-2025 19:18:37 Europe/Berlin] Error de conexión a la base de datos: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[01-Jul-2025 19:18:41 Europe/Berlin] Error de conexión a la base de datos: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[01-Jul-2025 19:18:45 Europe/Berlin] Error de conexión a la base de datos: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[01-Jul-2025 19:18:52 Europe/Berlin] Error de conexión a la base de datos: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[01-Jul-2025 19:18:56 Europe/Berlin] Error de conexión a la base de datos: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[01-Jul-2025 19:19:01 Europe/Berlin] Error de conexión a la base de datos: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[01-Jul-2025 19:19:05 Europe/Berlin] Error de conexión a la base de datos: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[01-Jul-2025 19:32:17 Europe/Berlin] Error de conexión a la base de datos: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[01-Jul-2025 19:32:21 Europe/Berlin] Error de conexión a la base de datos: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[01-Jul-2025 19:32:25 Europe/Berlin] Error de conexión a la base de datos: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[01-Jul-2025 19:32:29 Europe/Berlin] Error de conexión a la base de datos: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
